@@ -5,16 +5,12 @@
 #include "../src/window/window.h"
 
 void framebuffer_size_callback(GLFWwindow* window, int width, int height);
-
-
 // settings
 const unsigned int SCR_WIDTH = 800;
 const unsigned int SCR_HEIGHT = 600;
 
 int main() {
-    // glfw: initialize and configure
-    // ------------------------------
-    
+    // glfw: initialize and configure 
     Window window(SCR_WIDTH, SCR_HEIGHT, "Core");
     if (!window.check()) {
         std::cout << "window init failed!\n";
