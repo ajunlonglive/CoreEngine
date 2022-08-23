@@ -2,4 +2,17 @@
 # 此 .gitignore 文件已由 Microsoft(R) Visual Studio 自动创建。
 ################################################################################
 
-/.vs/CoreEngine/v17
+/.vs/*
+/dependency/*
+/bin/CoreEngine.tlog
+/bin/window.obj
+/bin/vc143.pdb
+/bin/vc143.idb
+/bin/renderer.obj
+/bin/main.obj
+/bin/glad.obj
+/bin/CoreEngine.vcxproj.FileListAbsolute.txt
+/bin/CoreEngine.pdb
+/bin/CoreEngine.log
+/bin/CoreEngine.ilk
+/bin/CoreEngine.exe.recipe
